@@ -1,38 +1,50 @@
-# create-svelte
+# Duggup Profile Page
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This project is a part of the assignment for the role of Frontend Engineer-I at Duggup. The task was to recreate the profile page using SvelteKit and TailwindCSS & ShadcnUI, and host it on a preferred hosting provider.
 
-## Creating a project
+Profile Page Link : [Figma](https://www.figma.com/file/u1B8DTArPwpnzBcMR04fvH/Timeline---Duggup?type=design&node-id=7-9899&mode=design&t=7TSD0nHP5xdHbIix-0) 
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Project Overview
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+The project aims to create a sleek and functional profile page for Duggup, a social network for people in tech. It utilizes SvelteKit for building the frontend, TailwindCSS & ShadcnUI for styling, and incorporates a sample JSON structure for data.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Screenshots
 
-## Developing
+![Screenshot from 2024-03-12 22-35-27](https://github.com/SahilDahekar/duggup-ui/assets/97726887/e9a54208-dd8a-4197-b75a-f48cf1231e8c)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+![Screenshot from 2024-03-12 22-35-33](https://github.com/SahilDahekar/duggup-ui/assets/97726887/8989ccd0-3999-41f6-a5da-7d185fdadaf3)
 
-```bash
-npm run dev
+## Technologies Used          
+  
+- SvelteKit
+- TailwindCSS & ShadcnUI  
+  
+## Getting Started              
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+To get a local copy up and running follow these simple steps.
 
-## Building
+1. Clone the repository  
+   ```sh
+   git clone https://github.com/SahilDahekar/duggup-ui.git
+   ```
+2. Navigate into the project directory
+   ```sh
+   cd duggup-ui  
+   ```
+3. Install dependencies
+   ```sh
+   npm install
+   ```
+4. Start the development server
+   ```sh
+   npm run dev
+   ```
+5. Open your browser and visit: `http://localhost:5173`
 
-To create a production version of your app:
+## Hosted Version
 
-```bash
-npm run build
-```
+The project is hosted at [https://main--duggup-ui.netlify.app/](https://main--duggup-ui.netlify.app/).
 
-You can preview the production build with `npm run preview`.
+## Contact
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Sahil Dahekar - dahekar30sahil@gmail.com - [Linkedin](https://www.linkedin.com/in/sahil-dahekar/) - [Twitter](https://twitter.com/SahilDahekar)
