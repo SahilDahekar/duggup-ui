@@ -1,16 +1,18 @@
 <script>
   import StyledButton from "./StyledButton.svelte";
+  import * as Avatar from "$lib/components/ui/avatar";
+
   let logo = "/assests/duggupLogo.jpg";
   let chevronDown = "/assests/chevron-down.svg";
   let post = "/assests/post.svg";
   let learn = "/assests/learn.svg";
   let home = "/assests/home.svg";
   let explore = "/assests/explore.svg";
-  let profile = "/assests/profile2.png";
+  let profile = "/assests/profile.png";
 
 </script>
 
-<nav class="flex justify-between items-center py-3 border-b-2 border-dotted text-[#4d4d4d]">
+<nav class="flex justify-between items-center py-3 border-b-2 border-dotted text-customNeutralDark">
     <div class="flex items-center gap-1">
         <img class="w-[27px] h-[27px] rounded-lg object-cover" src={logo} alt="duggup logo">
         <h1 class="font-semibold text-xl text-black">
@@ -27,7 +29,10 @@
             <img class="mr-3" src={post} alt="post logo"> Post
         </StyledButton>
         <div class="flex items-center gap-3 px-4">
-            <img class="border-[#4D4D4D] border-[1px] rounded-full w-12 h-12 object-cover" src={profile} alt="profile">
+            <Avatar.Root class="border-customNeutralDark border-[1px] w-12 h-12">
+                <Avatar.Image src={profile} alt="Krishna Kiran photo" />
+                <Avatar.Fallback>KK</Avatar.Fallback>
+            </Avatar.Root>
             <p class="flex items-center">Krishna Kiran <span><img class="ml-3" src={chevronDown} alt="chevron down"></span></p>
         </div>
     </div>
