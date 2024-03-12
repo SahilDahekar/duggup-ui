@@ -13,7 +13,7 @@
     <div class="border-r-dotted p-6 ml-24">
         <p class="text-xs text-customNeutralLight whitespace-nowrap">{entry.date}</p>
     </div>
-    <div role="region" aria-label="Timeline Entry" class="relative border-l-[3.5px] border-dotted border-customNeutralLight pl-5">
+    <div role="region" aria-label="Timeline Entry" class="relative border-l-3.5 2xl:border-l-4 border-dotted border-customNeutralLight pl-5">
         <div class="flex items-center gap-9 p-6">
             {#each entry.cards as card (card.img)}
                 <Card img={card.img} description={card.description} />
@@ -31,7 +31,7 @@
         <h4 aria-level="2" class="font-bold">{entry.company}</h4>
         <p class="text-xs text-right text-customNeutralLight whitespace-nowrap">{entry.location}<br>Joined<br>{entry.joinedDate}</p>
     </div>
-    <div role="region" aria-label="Job Details" class="relative w-full border-l-[3.5px] border-dotted border-customNeutralLight">
+    <div role="region" aria-label="Job Details" class="relative w-full border-l-3.5 2xl:border-l-4 border-dotted border-customNeutralLight">
         <div class="flex items-center h-full justify-stretch ml-5 p-6">
             <div class="p-6 shadow rounded-xl w-full  max-w-[713px]">
                 <h4 aria-level="3" class="text-xl font-bold">{entry.role}</h4>
@@ -39,6 +39,6 @@
             </div>
         </div>
         <Pointer variant="large" />
-        <img class="absolute top-0 -left-[17.5px]" src={chevronUp} alt="chevron up svg">
+        <img class="absolute -top-[5px] -left-[17.5px]" src={chevronUp} alt="chevron up svg">
     </div>
 </article>
