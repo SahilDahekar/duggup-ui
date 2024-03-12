@@ -21,9 +21,9 @@
     </div>
     <div class="flex items-center gap-10">
         <ul class="flex">
-            <li class="flex items-center py-2 pl-5 pr-6"><img class="mr-2" src={home} alt="home logo"> Home</li>
-            <li class="flex items-center py-2 pl-5 pr-6"><img class="mr-2" src={explore} alt="explore logo"> Explore</li>
-            <li class="flex items-center py-2 pl-5 pr-6"><img class="mr-2" src={learn} alt="learn logo"> Learn</li>
+            <li class="flex items-center py-2 pl-5 pr-6"><a href="/" class="flex items-center focus:outline-none focus:underline"><img class="mr-2" src={home} alt="home logo"> Home</a></li>
+            <li class="flex items-center py-2 pl-5 pr-6"><a href="/" class="flex items-center focus:outline-none focus:underline"><img class="mr-2" src={explore} alt="explore logo"> Explore</a></li>
+            <li class="flex items-center py-2 pl-5 pr-6"><a href="/" class="flex items-center focus:outline-none focus:underline"><img class="mr-2" src={learn} alt="learn logo"> Learn</a></li>
         </ul>
         <StyledButton>
             <img class="mr-3" src={post} alt="post logo"> Post
@@ -33,7 +33,7 @@
                 <Avatar.Image src={profile} alt="Krishna Kiran photo" />
                 <Avatar.Fallback>KK</Avatar.Fallback>
             </Avatar.Root>
-            <p class="flex items-center">Krishna Kiran <span><img class="ml-3" src={chevronDown} alt="chevron down"></span></p>
+            <a href="/" class="flex items-center focus:outline-none focus:underline">Krishna Kiran <span><img class="ml-3" src={chevronDown} alt="chevron down"></span></a>
         </div>
     </div>
 </nav>

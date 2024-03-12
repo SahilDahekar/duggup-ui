@@ -22,7 +22,7 @@
         <Pointer />
     </div>
 </article>
-<article class="flex">
+<article class="flex mb-1">
     <div class="flex flex-col items-end p-6 ml-[18px]">
         <Avatar.Root class="w-12 h-12 mb-2">
             <Avatar.Image src={entry.companyLogo} alt={`${entry.company} logo`} />

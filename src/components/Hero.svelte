@@ -49,7 +49,7 @@
             </StyledButton>
         </div>
         <div class="flex items-center gap-4 text-[#4D4D4D]">
-            <a href="/" class="flex items-center">My website <img class="ml-2" src={link} alt="link svg"></a>
+            <a href="/" class="flex items-center focus:outline-none focus:underline">My website <img class="ml-2" src={link} alt="link svg"></a>
             <img src={dot} alt="three horizontal dot">
         </div>
     </div>
